@@ -44,19 +44,11 @@ module.exports = {
       },
       {
         test: /\.(ttf|woff|woff2)$/,
-        use: [
-          {
-            loader: 'url-loader'
-          }
-        ]
+        type: 'asset/resource'
       },
       {
         test: /\.(jpg|png)$/,
-        use: [
-          {
-            loader: 'url-loader'
-          }
-        ]
+        type: 'asset/resource'
       }
     ]
   },
