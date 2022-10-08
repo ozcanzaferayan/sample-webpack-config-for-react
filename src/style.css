@@ -1,0 +1,17 @@
+.title {
+  color: red;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+html,
+body,
+span {
+  font-family: 'Open Sans', serif;
+  font-size: 36px;
+}
